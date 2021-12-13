@@ -1,6 +1,7 @@
+<br>
 <h3> Student Record Management System </h3>
 <hr>
-<br>
+
 <h5>Student Record Management System is created for store student records like name, age,email,mobile number,gender,department,class, cgpa ,etc.
   this website is created using Reactjs,Redux, bootstrap,ReactBootstrap.</h5>
   
