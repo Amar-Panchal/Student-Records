@@ -1,3 +1,28 @@
+<h3> Student Record Management System </h3>
+
+<h5>Student Record Management System is created for store student records like name, age,email,mobile number,gender,department,class, cgpa ,etc.
+  this website is created using Reactjs,Redux, bootstrap,ReactBootstrap.</h5>
+  
+<h4>Link</h5>
+https://gracious-montalcini-83c11c.netlify.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
