@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+
+.Form-table{
+    line-height: 1rem;
+    color: white;
+    max-width: 25rem;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #0f0f35ef 50%, #2f2470 100%);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5rem;
+    box-shadow: 0 5px 8px 0 #030431, 0 8px 9px 0 #f1f1f5;
+
+}
+.table{
+    font-family: 'Raleway', sans-serif;
+
+}
+@media screen and (max-width: 700px){
+    .Form-table{
+        width: 90%;
+    }
+    
+}
+.form-check-label{
+    margin-right: 1rem ;
+    font-size: 14px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control{
+    font-size: 0.8rem !important;
+    border: 1px solid #030431 !important;
+    width: 75% !important;
+    margin-right: inherit;
+    margin-left: auto;
+}
+.form-check-input{
+    border: 2px solid #030431 !important ;
+    padding:7px !important;
+}
+.form-check-input:checked {
+    background-color: rgb(240, 93, 8) !important;
+    color: white !important;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputNumDetails{
+    margin-top: 10px;
+    margin-right:initial;
+    margin-left: auto;
+}
+.Form-table h3{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submitbtn{
+    color: #030431;
+    background-color: white;
+    font-size: 1rem;
+    border: 2px solid #030431;
+    padding: 8px 20px 8px;
+    margin-left: 1rem;
+    font-weight: bold;
+    border-radius: 1px;
+}
+.submitbtn:hover{
+    background-color: #030431;
+    color: white;
+    border: 2px solid #fafafa;
+}
+.thead{
+    background-color: #030431;
+
+}
+.btn-back{
+    background-color: white;
+    color: #030431;
+    border: 2px solid #030431;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 10px 5px;
+}
+.btn-back:hover{
+    background-color: #030431;
+    color: white;
+    border: 2px solid #030431;
+}
+.btn-back span{
+    font-size: 1.3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar input{
+    width: 18rem;
+    height: 2.53rem;
+    padding-left: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.2rem;
+    border: 2px solid #030431;
 }
+.search-bar span{
+    font-size: 1.1rem;
+    background-color: #030431;
+    color: white;
+    margin-left: -2.6rem;
+    padding: 4px 10px 4px;
+    border: 2px solid #030431;
+}
+.header{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 13px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    background-color: #030431;
+}
+.header .NavLink{
+    font-size: 1.3rem; 
+    color: white;
+    text-decoration: 2px #f7a102 underline;
+    text-underline-position: under;
+    word-spacing: 5px;
+}
+footer{
+    background-color: #030431;
+    color: white;
+    padding: 10px 0;  
+    text-align: center;
+    
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+footer a{
+    color:#f7a102;
+    font-size: 1.2rem;
+}
+footer a:hover{
+    color:#f38b02;
+    
+}
+.btn-print{
+    background-color: green;
+    color: white;
+    border: 2px solid #030431;
+    padding: 5px 20px 5px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.btn-print:hover{
+    background-color:white;
+    color: green;
+    border: 2px solid #030431;
 }
